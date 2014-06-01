@@ -3,7 +3,9 @@
 .sortable-code {
     padding-left: 0px;
     margin-left: 2%;
-    float: left;
+    display:inline-block;
+	text-align: left;
+	vertical-align: top;
 }
 #sortableTrash { width: 38%; }
 #sortable { width: 56%; }
@@ -101,4 +103,27 @@ li.correctPosition, .testcase.pass {
     content: "??";
     display: block;
     color: red;
+}
+.parsons{
+	/*background-color: #fbfcfd;
+	border-color: #e6e6e6;
+	box-shadow: inset 0px 0px 6px -1px rgba(50, 50, 50, 0.75);*/
+	border-left:0;
+	border-right:0;
+	border-radius:0;
+	margin: 10px 0;
+}
+.parsons-text {
+	max-width: 500pt;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sortable-code-container{
+	text-align:center;
+}
+.parsons-controls{
+	max-width: 500pt;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
 }
